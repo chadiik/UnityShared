@@ -16,3 +16,7 @@ Then create a symlink with:
 
 mklink /D DevUtils ..\..\Extras\UnityShared\Assets\chadiik\DevUtils\
 
+git pull
+
+git branch to devUtils, since DevUtils choosen
+
