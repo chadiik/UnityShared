@@ -2,6 +2,8 @@
 using System;
 using Stopwatch = System.Diagnostics.Stopwatch;
 
+// comment from symlink on some project
+
 namespace chadiik.devUtils {
 	/// <summary>
 	/// Helper class to cleanly check execution times of a delegate function
