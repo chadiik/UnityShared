@@ -6,6 +6,10 @@ Setup steps reminder:
 
 Clone repo to ProjectRoot/Extras/UnityShared
 
+git pull
+
+git branch to some branch, ie: devUtils for DevUtils assets
+
 Create folder in Assets, ie: 'Assets/chadiik
 
 From within folder,
@@ -15,8 +19,4 @@ From within folder,
 Then create a symlink with:
 
 mklink /D DevUtils ..\..\Extras\UnityShared\Assets\chadiik\DevUtils\
-
-git pull
-
-git branch to devUtils, since DevUtils choosen
 
