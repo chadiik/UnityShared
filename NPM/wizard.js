@@ -22,7 +22,6 @@ rl.on('line', (line) => {
     if(index < 0 || index >= branches.length){
 
         console.log('Out of bounds!');
-        prompt();
     }
     else{
 

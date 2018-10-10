@@ -2,18 +2,17 @@
 A collection of folders containing scripts I use in several projects
 
 
-How to get a specific folder?
+Setup steps reminder:
 
-Navigate to a folder outside your Assets folder; the root folder of your unity folder is a good place.
+Clone repo to ProjectRoot/Extras/UnityShared
 
-Create a new folder, folder name suggestion: 'Extras'
+Create folder in Assets, ie: 'Assets/chadiik
 
-On a terminal, enter >
+From within folder,
 
-npm init #basic setup will create a package.json file
+----- If on bash -> start a cmd process with: cmd \c
 
-npm install git+https://github.com/chadiik/UnityShared.git
+Then create a symlink with:
 
-npm explore chadiik-on-git
+mklink /D DevUtils ..\..\Extras\UnityShared\Assets\chadiik\DevUtils\
 
-npm run packages
