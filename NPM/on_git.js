@@ -12,7 +12,7 @@ function installBranch(branch){
 
     if(branches[branch] !== undefined){
 
-        let package = git + '#' + branch;
+        let package = git + '\#' + branch;
         process.install(package, function(error){
 
             if(error) throw error;
