@@ -4,7 +4,6 @@
   "description": "Unity helpers",
   "main": "README.md",
   "scripts": {
-    "postinstall": "npm explore chadiik-on-git",
     "packages": "node ./NPM/wizard.js"
   },
   "repository": {
