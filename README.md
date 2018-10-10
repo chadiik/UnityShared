@@ -6,9 +6,9 @@ Setup steps reminder:
 
 Clone repo to ProjectRoot/Extras/UnityShared
 
-git pull
+git checkout to some branch, ie: devUtils for DevUtils assets
 
-git branch to some branch, ie: devUtils for DevUtils assets
+git pull origin devUtils
 
 Create folder in Assets, ie: 'Assets/chadiik
 
