@@ -1,19 +1,22 @@
 {
-  "name": "chadiik-on-git",
+  "name": "devutils",
   "version": "0.1.0",
-  "description": "Unity helpers",
+  "description": "devUtils from chadiik-on-git",
   "main": "README.md",
   "scripts": {
-    "postinstall": "npm explore chadiik-on-git",
-    "packages": "node ./NPM/wizard.js"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/chadiik/UnityShared.git"
+    "url": "git+https://github.com/chadiik/UnityShared.git#devUtils"
   },
-  "keywords": [
-    "Unity",
-    "C#"
-  ],
-  "homepage": "https://github.com/chadiik/UnityShared#readme"
+  "author": "chadiik",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/chadiik/UnityShared/issues"
+  },
+  "homepage": "https://github.com/chadiik/UnityShared/tree/devUtils#readme",
+  "files": [
+    "Assets/chadiik/DevUtils"
+  ]
 }
