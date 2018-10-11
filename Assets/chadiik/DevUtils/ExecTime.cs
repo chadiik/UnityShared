@@ -77,7 +77,7 @@ namespace chadiik.devUtils {
 #endif
 		}
 
-		private static Dictionary<string, ExecTimeAsyncObject> s_Async;
+		private static Dictionary<string, ExecTimeAsyncObject> s_Async = new Dictionary<string, ExecTimeAsyncObject>();
 		private static ExecTimeAsyncObject s_LastAsync;
 		public static void Start( string title ) {
 #if UNITY_EDITOR
