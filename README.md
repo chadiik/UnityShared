@@ -18,5 +18,5 @@ From within folder,
 
 Then create a symlink with:
 
-mklink /D DevUtils ..\..\Extras\UnityShared\Assets\chadiik\DevUtils\
+mklink /D DevUtils ..\\..\Extras\UnityShared\Assets\chadiik\DevUtils
 
